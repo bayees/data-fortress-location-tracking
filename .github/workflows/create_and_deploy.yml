@@ -9,7 +9,7 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
   CONTAINER_NAME: data-fortress-position-tracking
-  CONTAINER_PORT: 5700
+  CONTAINER_PORT: 5800
 
 jobs:
   build-and-push-image:
